@@ -1,0 +1,90 @@
+.body{
+    width: 100%;
+    min-height: 50px;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+    background-color: rgb(199, 194, 194);
+}
+.brandName{
+    font-family: 'Press Start 2P', cursive;
+    color: rgb(2, 175, 2);
+    text-decoration: none;
+    font-weight: bold;
+}
+.menuButton{
+    width: 50px;
+    height: auto;
+    font-size: 1.6rem;
+    background-color: transparent;
+    border: none;
+    color: rgb(2, 175, 2);
+    cursor: pointer;
+}
+.navigations{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    position: absolute;
+    left: 0;
+    top: 50px;
+    backdrop-filter: blur(10px);
+    width: 100%;
+    text-align: center;
+    transition: all 1s ease-in-out;
+    transform: translateX(100%);
+    opacity: 0;
+    padding: 40px 0px;
+}
+.active{
+    transform: translateX(0);
+    opacity: 1;
+}
+.navLinks{
+    text-decoration: none;
+    color:rgb(2, 175, 2);
+    font-size: 1.4rem;
+}
+.navLinkMega{
+    width: 160px;
+    height: 45px;
+    border-radius: 50px;
+    border: none;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    font-family: 'Press Start 2P', cursive;
+}
+
+@media only screen and (min-width: 768px) {
+    .body{
+        padding: 15px 80px;
+    }
+    .menuButton{
+        display: none;
+    }
+    .navigations{
+        transform: translateX(0);
+        opacity: 1;
+        backdrop-filter: none;
+        display: flex;
+        flex-direction: row;
+        width: fit-content;
+        position: relative;
+        left: 220px;
+        top: 0;
+        transition: none;
+        padding: 0;
+    }
+    .brandName{
+        font-size: 1.5rem;
+    }
+    .navLinkMega{
+        width: 120px;
+        height: 35px;
+    }
+}

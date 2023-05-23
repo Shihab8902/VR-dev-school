@@ -1,0 +1,13 @@
+.body{
+    background-color: rgb(3, 110, 152);
+    min-height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+@media only screen and (min-width: 768px) {
+    .body{
+        min-height: 80px;
+    }
+}

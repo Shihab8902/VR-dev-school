@@ -1,0 +1,48 @@
+.body{
+    width: 80%;
+    margin: 0 auto;
+    font-weight: 300;
+    padding: 100px 0px;
+}
+.heading{
+    font-size: 1.8rem;
+    padding: 30px 0px;
+}
+.briefing{
+    line-height: 25px;
+}
+.subHeading{
+    padding: 50px 0px;
+    font-size: 1.2rem;
+}
+.paragraph{
+    line-height: 25px;
+}
+.lists{
+    margin-left: 40px;
+}
+.list{
+    margin: 20px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 768px) {
+    .body{
+        width: 60%;
+    }
+}

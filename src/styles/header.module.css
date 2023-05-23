@@ -1,0 +1,22 @@
+.body{
+    background-color: rgb(3, 110, 152);
+    min-height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: lighter;
+}
+.headerLink{
+    color: rgb(5, 214, 5);
+    text-decoration: none;
+    font-size: 1.4rem;
+}
+
+@media only screen and (min-width: 768px) {
+    .body{
+        min-height: 80px;
+    }
+    .headerLink{
+        font-size: 1.8rem;
+    }
+}

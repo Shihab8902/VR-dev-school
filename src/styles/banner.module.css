@@ -1,0 +1,48 @@
+.body{
+    height: 100vh;
+    background-image: url("../assets/images/Banner\ \(1\).jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container{
+    text-align: center;
+    padding: 0px 50px;
+}
+.header{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 3rem;
+    color: white;
+    text-shadow: 3px 3px 5px black;
+    line-height: 60px;
+}
+.subHeader{
+    font-size: 25px;
+    padding: 40px 0px;
+    text-shadow: 2px 2px 5px white;
+}
+.enrollButton{
+    width: 220px;
+    height: 50px;
+    border: none;
+    font-family: 'Press Start 2P', cursive;
+    border-radius: 50px;
+    background-color: rgb(228, 7, 7);
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.enrollButton:hover{
+    transform: translateY(-5%);
+}
+@media only screen and (min-width: 768px) {
+    .container{
+        margin-top: 100px;
+    }
+    .enrollButton{
+        margin: 30px 0px;
+    }
+}

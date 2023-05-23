@@ -1,0 +1,24 @@
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(36, 181, 238);
+    min-height: 100px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.copyrightMessage{
+    font-size: 20px;
+}
+.links{
+    display: flex;
+    flex-direction: column;
+}
+.link{
+    text-decoration: none;
+    color: black;
+    margin: 5px 0px;
+}
+.link:hover{
+    opacity: 0.8;
+    color: green;
+}

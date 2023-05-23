@@ -1,0 +1,48 @@
+.body{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 150px;
+    font-weight: 300;
+}
+.heading{
+    padding: 10px 0px 50px 0px;
+}
+.points{
+    padding: 15px 0px;
+    font-size: 1.4rem;
+    opacity: 0.8;
+}
+.article{
+    padding-bottom: 30px;
+}
+.paragraph{
+    line-height: 30px;
+}
+.firstPara{
+    padding-bottom: 20px;
+    margin-left: 30px;
+}
+.secondPara{
+    padding-top: 20px;
+    margin-left: 30px;
+}
+.firstList{
+    list-style-type: lower-alpha;
+}
+.secondList{
+    margin-left: 50px;
+    list-style-type: lower-roman;
+}
+.lists{
+    margin: 10px 0px;
+}
+
+
+
+
+
+@media only screen and (min-width: 768px) {
+    .body{
+        width: 60%;
+    }
+}
